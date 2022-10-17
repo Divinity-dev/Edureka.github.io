@@ -66,7 +66,7 @@ ul li a:hover{
     text-decoration: none;
     font-size: 13px;
     position: relative;
-    left: 45%;
+    left: 40%;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -105,7 +105,7 @@ ul li a:hover{
 }
 .levels div p{
     font-size: 10px;
-    font-weight: 10px;
+    font-weight: 200;
     text-align: center;
     word-spacing: spacing 1.5ps;
 }
@@ -162,17 +162,83 @@ ul li a:hover{
 .testimonies{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    margin: 40px 70px;
 }
 .student{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color:#edd0c7; 
+    width: 40%;  
 }
 .student img{
     width: 10%;
     height: 40%;
     border-radius: 50%;
+}
+.student div{
+    margin-left: 10px;
+     
+}
+.student div h3{
+    font-size: 15px;
+    text-align: left;
+}
+.student div p{
+    font-size: 10px;
+    font-weight: 200;
+    text-align: left;
+    word-spacing: spacing 1.5ps;
+}
+.student div i{
+    color: red;
+    text-align: left;
+}
+.student:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border-radius: 5px;
+    width: 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),url(images/eduford_img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2{
+    font-size: 30px;
+}
+.contact a{
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.contact a:hover{
+    background-color: #f44336; 
+}
+.footer div h3{
+    font-size: 15px;
+}
+.footer div i{
+    color: red;
+    margin: 10px;
 }
 
 
