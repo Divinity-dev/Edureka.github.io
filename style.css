@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s;
+}
+body{
+    max-width: 100%;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(images/eduford_img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    margin-top: 3px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    margin: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+ul li a:hover{
+    border-bottom: 2px solid #f44336;
+}
+.heading{
+    top: 40%;
+    left: 25%;
+    position: absolute;
+    color: #fff;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading p{
+    font-size: 10px;
+    margin: 20px 10px;
+    text-align: center;
+    font-weight: 100;
+}
+.heading a{
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 100;
+    background: transparent;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    left: 45%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.heading a:hover{
+    background-color: #f44336;
+}
+.courses{
+    text-align: center;
+}
+.courses h2{
+    font-size: 30px;
+}
+.courses p{
+    font-size: 10px;
+    font-weight: 100;
+}
+.levels{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 60px
+    
+}
+.levels div{
+    background-color:#edd0c7;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10%;
+}
+.levels div:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.levels div h3{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.levels div p{
+    font-size: 10px;
+    font-weight: 10px;
+    text-align: center;
+    word-spacing: spacing 1.5ps;
+}
+.photos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    margin:20px 0px;
+}
+.photos div{
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    width: 33%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+.photos div:hover{
+    transform: scale(1.05);
+    opacity: 1;
+    display: inline;
+}
+.facilities{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 10% 10%;
+    height: 40vh;
+}
+.facilities div{
+    width: 25%;  
+}
+.facilities div img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.facilities div img{
+    width: 100%;
+    border-radius: 10%;
+}
+.facilities div h3{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.facilities div p{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+.degrees{
+    margin-top: 20px;
+}
+.testimonies{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.student{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.student img{
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
